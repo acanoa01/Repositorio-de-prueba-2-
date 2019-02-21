@@ -2,7 +2,7 @@
 int main()
 {
 int Num;
-printf ("¿Que mes es?: ");
+printf ("¿A que mes corresponde el número: ");
 scanf ("%d", &Num);
 switch (Num){
      case 1:
@@ -54,7 +54,7 @@ switch (Num){
         printf("Diciembre\n");
         break ;
     default:
-     printf ("Eror tuyo,crack\n");
+     printf ("Error, No existen coincidencias\n");
      }
 return 0;
 }
